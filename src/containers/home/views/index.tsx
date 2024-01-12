@@ -7,7 +7,7 @@ type Props = {
 export const Home: FC<Props> = () => {
   return (
     <div className="home">
-      <div className="home__content">hế lo anh trọng việt</div>
+      <div className="home__content">hế lo anh trọng việt1</div>
     </div>
   );
 };
