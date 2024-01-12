@@ -21,7 +21,9 @@ export const Home: FC<Props> = () => {
     });
   };
   return (
+
     <>
+
       <button
         onClick={handlToastSuccess}
         className="border-2 border-red-600 bg-[#F9471B] active:bg-red-500 text-white rounded-lg px-10 py-3 mr-10"
