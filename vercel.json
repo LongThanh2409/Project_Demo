@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/layout/MainLayout.index.tsx" }
+  ]
+}
