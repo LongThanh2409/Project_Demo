@@ -21,6 +21,7 @@ export const Home: FC<Props> = () => {
     });
   };
   return (
+
     <div className="container text-center ">
       <button
         onClick={handlToastSuccess}
