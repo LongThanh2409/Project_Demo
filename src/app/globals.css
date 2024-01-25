@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../resources/font-awesome/all.css";
+.main-container {
+  max-width: 768px;
+  width: 100%;
+  margin: auto;
+  padding: 40px 10px;
+}
+
+.main-banner {
+  width: 100%;
+  height: 188px;
+  object-fit: fill;
+  border-radius: 8px 8px 0 0;
+}
+
+.main-content {
+  padding: 24px 24px 16px 24px;
+}
+
+.main-greeting {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main-subtitle {
+  font-size: 1.25rem;
+  font-weight: medium;
+  text-transform: uppercase;
+  margin-top: 1.25rem;
+}
+
+.main-info-text {
+  font-size: 1rem;
+  margin-top: 24px;
+}
+
+.main-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.main-info-item {
+  display: flex;
+  align-items: center;
+}
+
+.main-info-label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.main-info-value {
+  font-weight: 500;
+  color: #fbb400;
+  margin-left: 5px;
+}
+
+.main-separator {
+  width: 100%;
+  height: 0.5px;
+  background-color: #e2e8f0;
+  margin-top: 40px;
+}
+
+.main-additional-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.main-info-note {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.main-info-description {
+  font-weight: normal;
+}
+
+.main-cta-button {
+  width: 192px;
+  text-transform: capitalize;
+  background-color: #f59e0b;
+  padding: 0.625rem;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-cta-button:hover {
+  background-color: #d97706;
+}
+
+.main-footer-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 0.875rem;
+  font-weight: medium;
+}
